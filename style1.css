@@ -9,7 +9,7 @@
 #navbar{
 	display: flex;
 	align-items:  center;
-	position: absolute;
+	position: fixed;
 	/* top:0px; */
 
 }
@@ -27,6 +27,7 @@ opacity:0.7;
 }
 #logo{
 margin: 15px 5px;
+
 
 }
 #logo img{
@@ -197,7 +198,7 @@ opacity:0.89;
 }
 #contact-box input,
 #contact-box textarea{
-	width: 100%
+	width: 100%;
 	padding :0 5rem;
 }
 #contact-box form{
@@ -228,3 +229,5 @@ footer{
 	outline: none;
 	border-radius: 9px;
 }
+
+
